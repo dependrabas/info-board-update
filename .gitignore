@@ -1,0 +1,32 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+cache/
+
+# PHP testing and analysis
+.phpunit.cache/
+.php-cs-fixer.cache
+.phpstan/
+coverage/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Backups
+*.bak
+*.old
+*.sql.gz
